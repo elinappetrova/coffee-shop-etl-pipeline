@@ -10,7 +10,7 @@ def transform(df):
     print("Transforming and cleaning...")
     df = df.dropna(subset=["item_name", "price", "quantity"])
     df["item_name"] = df["item_name"].str.strip().str.title()
-    df["item_name"] = pd.to_datetime(df["order_date"], format='mixed').dt.strftime("%Y-%m-%d")
+    df["order_date"] = pd.to_datetime(df["order_date"], format='mixed').dt.strftime("%Y-%m-%d")
     df["total_spent"] = df["price"] * df["quantity"]
 
     return df
