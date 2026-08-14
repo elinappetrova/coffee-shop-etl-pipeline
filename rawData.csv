@@ -13,5 +13,5 @@ transaction_id,order_date,customer_id,item_name,price,quantity
 12,2026-08-04,C112,croissant  ,3.50,2
 13,08/05/2026,C113,Iced Coffee,4.00,3
 14,2026-08-05,C114,Muffin,3.25,1
-15,2026-08-05,C115,Latte,999.50,1
+15,2026-08-05,C115,Latte,4.50,1
 16,2026-08-08,C115,Latte,4.50,2
